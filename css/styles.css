@@ -14,7 +14,7 @@
 
 
 body {
-    background-color: #ffffff;
+    background-color: var(--hero-title-color);
     color:var(--title-text-color);
 }
 ul {
@@ -29,6 +29,20 @@ ul {
 .logo {
 color:var(--primary-text-color) ;
 }
+/* контакти */
+.contact-mail,
+.contact-number {
+    color: var(--title-text-color);
+}
+.contact-number:hover,
+.contact-mail:hover {
+color: var(--accent-color);
+}
+.contact-mail:focus,
+.contact-number:focus {
+    color: var(--accent-color);
+}
+
 /* hero */
 .hero {
     background-color: var(--background-hero-color);
@@ -64,4 +78,31 @@ color: var(--primary-text-color);
 .buttons.primary {
     color: var(--hero-title-color);
     background-color: var(--accent-color);
+}
+/* футер */
+footer {
+background-color: var(--background-hero-color);
+}
+.logo-footer {
+    color: var(--hero-title-color);
+}
+/* адреса */
+.location {
+    color: var(--hero-title-color);
+}
+.link,
+.contact-num {
+    color: var(--title-text-color);
+}
+.link:hover,
+.contact-num:hover {
+    color: var(--accent-color);
+} 
+.link:focus,
+.contact-num:focus {
+    color: var(--accent-color);
+} 
+
+.title {
+    color: var(--primary-text-color);
 }
