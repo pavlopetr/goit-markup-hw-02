@@ -16,27 +16,60 @@
 body {
     background-color: var(--hero-title-color);
     color:var(--title-text-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    letter-spacing: 0.03em;
 }
 ul {
     list-style: none;
+    /* logo */
 }
 .logo:hover{
     color: var(--accent-color);
 }
 .web {
     color: var(--accent-color);
+    font-family: Raleway, sans-serif; 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    
 }
 .logo {
-color:var(--primary-text-color) ;
+    color:var(--primary-text-color) ;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+/* site- nav */
+.site-nav .linc {
+    color: var(--primary-text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
+}
+.site-nav .linc:hover,
+.site-nav .linc:focus{
+    color: var(--accent-color);
+}
+.site-nav .linc.curent {
+    color: var(--accent-color);
 }
 /* контакти */
 .contact-mail,
 .contact-number {
     color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .contact-number:hover,
 .contact-mail:hover {
-color: var(--accent-color);
+    color: var(--accent-color);
 }
 .contact-mail:focus,
 .contact-number:focus {
@@ -49,42 +82,94 @@ color: var(--accent-color);
 }
 .hero-title {
     color: var(--hero-title-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-/* site- nav */
-.site-nav .linc {
-color: var(--primary-text-color);
-}
-.site-nav .linc:hover,
-.site-nav .linc:focus{
-    color: var(--accent-color);
-}
-.site-nav .linc.curent {
-    color: var(--accent-color);
-}
+
 .section-title {
     color: var(--primary-text-color);
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
 }
 .feature .title {
     color: var(--primary-text-color);
 }
+.title {
+    color: var(--primary-text-color);
+    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.description {
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
 .comand-name {
     color: var(--primary-text-color);
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+.profession {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
 }
 /* button */
-.buttons {
+.button {
+    cursor: pointer;
     color: var(--primary-text-color);
     background-color: var(--accent-color);
+    font-family: 'Roboto';
+    font-style: normal;
 }
-.buttons.primary {
-    color: var(--hero-title-color);
+.button .primary {
+    color: var(--title-text-color);
     background-color: var(--accent-color);
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
 }
+.btn-portfolio {
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+    color: var(--accent-color);
+} 
 /* футер */
 footer {
-background-color: var(--background-hero-color);
+    background-color: var(--background-hero-color);
 }
 .logo-footer {
     color: var(--hero-title-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
 }
 /* адреса */
 .location {
@@ -103,6 +188,22 @@ background-color: var(--background-hero-color);
     color: var(--accent-color);
 } 
 
-.title {
+address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.title-portfolio {
     color: var(--primary-text-color);
+
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 2;
+   letter-spacing: 0.06em;
+}
+.p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
 }
