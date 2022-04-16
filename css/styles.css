@@ -139,10 +139,12 @@ ul {
     font-family: 'Roboto';
     font-style: normal;
 }
-.button .primary {
-    color: var(--title-text-color);
+.button-primary {
+    color: var(--hero-title-color);
     background-color: var(--accent-color);
-    
+    cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.9;
@@ -158,7 +160,8 @@ ul {
 }
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-    color: var(--accent-color);
+    color: var(--hero-title-color);
+    background-color: var(--accent-color);
 } 
 /* футер */
 footer {
@@ -174,10 +177,14 @@ footer {
 /* адреса */
 .location {
     color: var(--hero-title-color);
+    font-family: 'Roboto';
+    font-style: normal;
 }
+
 .link,
 .contact-num {
-    color: var(--title-text-color);
+    color: rgba(255, 255, 255, 0.6);
+   
 }
 .link:hover,
 .contact-num:hover {
@@ -207,3 +214,6 @@ address {
     font-size: 16px;
     line-height: 1.9;
 }
+a {  
+    text-decoration: none;
+ }
